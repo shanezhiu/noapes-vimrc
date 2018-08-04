@@ -28,7 +28,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " A tree explore plugin for vim
 Plugin  'scrooloose/nerdtree'
 " Vim plugin that displays tags in a window orderd by scope
-Plugin 'majustsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 " precision colorscheme for the vim text editor
 " Plugin 'altercation/vim-colors-solarized'
 " Lean & mean status/tabline for vim that's light as air.
@@ -37,6 +37,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " Molokai color scheme for vim
 Plugin  'tomasr/molokai'
+" syntax checking hacks for vim
+Plugin 'scrooloose/syntastic'
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
@@ -64,3 +66,12 @@ let g:aireline#extensions#tabline#formatter = "jsformatter"
 " Molokai
 " let g:molokai_original = 1
 let g:rehash256 = 1
+" syntastic check
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
