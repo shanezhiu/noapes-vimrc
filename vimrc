@@ -32,13 +32,22 @@ Plugin 'majutsushi/tagbar'
 " precision colorscheme for the vim text editor
 " Plugin 'altercation/vim-colors-solarized'
 " Lean & mean status/tabline for vim that's light as air.
+" Markdown Vim Mode
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 " Install L9 and avoid a Naming conflict if you've already installed a
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " Molokai color scheme for vim
 Plugin  'tomasr/molokai'
+" indent yaml
+Plugin 'avakhov/vim-yaml'
 " syntax checking hacks for vim
 Plugin 'scrooloose/syntastic'
+" Zen coding
+Plugin 'mattn/emmet-vim'
+" Git integration
+Plugin 'motemen/git-vim'
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
@@ -75,3 +84,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" Markdow configurtion
+
