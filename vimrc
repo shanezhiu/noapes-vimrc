@@ -40,6 +40,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " Molokai color scheme for vim
 Plugin  'tomasr/molokai'
+" BETTER JSON FOR VIM
+Plugin 'elzr/vim-json'
 " indent yaml
 Plugin 'avakhov/vim-yaml'
 " syntax checking hacks for vim
