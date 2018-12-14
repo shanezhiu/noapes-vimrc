@@ -11,7 +11,10 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
+" golang programming
+Plugin 'fatih/vim-go'
+"source code browser plugin
+Plugin 'taglist.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " A code-completion engine for Vim
@@ -19,7 +22,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
+Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
