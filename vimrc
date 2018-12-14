@@ -13,8 +13,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " golang programming
 Plugin 'fatih/vim-go'
-"source code browser plugin
-Plugin 'taglist.vim'
+" source code browser plugin
+" Plugin 'taglist.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " A code-completion engine for Vim
