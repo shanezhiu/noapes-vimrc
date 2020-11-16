@@ -17,12 +17,13 @@ Plugin 'fatih/vim-go'
 " Keep Plugin commands between vundle#begin/end.
 " A code-completion engine for Vim
 " Plugin 'valloric/youcompleteme'
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 Plugin 'L9'
+" Fugitive is the premier Vim plugin for Git. Or maybe it's the premier Git plugin for Vim? Either way, it's so awesome, it should be illegal. 
+" That's why it's called Fugitive.
+Plugin 'tpope/vim-fugitive'
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'wincent/command-t'
 " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
